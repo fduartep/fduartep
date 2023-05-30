@@ -28,12 +28,7 @@ h1 {
   opacity: 1;
 }
 
-.top {
-  padding-top: 30px;
-  width: 50%;
-  margin: 0 auto;
-  text-align: justify;
-}
+
 
 .description {
   padding-top: 30px;
@@ -59,7 +54,6 @@ h1 {
 .description .textoiguana p {
   margin: 50px 0 0 50px;
   color: #ffffff;
-  text-decoration: none;
 }
 
 
@@ -104,7 +98,6 @@ h1 {
 
 .caracteristicas .caract1 {
   margin-top: 50px;
-  font-size: small;
   font-size: 30px;
   color: white;
   text-align: center;
@@ -116,7 +109,6 @@ h1 {
 
 .caracteristicas .caract2 {
   margin-top: 50px;
-  font-size: small;
   font-size: 30px;
   color: white;
   text-align: center;
@@ -128,7 +120,6 @@ h1 {
 
 .caracteristicas .caract3 {
   margin-top: 50px;
-  font-size: small;
   font-size: 30px;
   color: white;
   text-align: center;
@@ -160,8 +151,9 @@ h1 {
   height: 100%;
   float: left;
   display: inline-block;
-  
+
 }
+
 .fotos .igu2 {
   margin-top: 50px;
   width: 33.333333%;
@@ -178,28 +170,22 @@ h1 {
 }
 
 .fotos .igu1 img {
-  top: 1561px;
-  left: 150px;
-  width: 316px;
-  height: 202px;
+  width: 90%;
+  height: inherit;
   background: transparent url('img/photo-1523371153586-b3b8e1782b44.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
 .fotos .igu2 img {
-  top: 1561px;
-  left: 482px;
-  width: 316px;
-  height: 202px;
+  width: 90%;
+  height: inherit;
   background: transparent url('img/photo-1511762018950-7ba39019ae85.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
 .fotos .igu3 img {
-  top: 1561px;
-  left: 814px;
-  width: 316px;
-  height: 202px;
+  width: 90%;
+  height: inherit;
   background: transparent url('img/photo-1487252665478-49b61b47f302.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
@@ -218,11 +204,6 @@ h1 {
   letter-spacing: 0;
   color: #FFFFFF;
   opacity: 1;
-}
-
-.top img {
-  width: 100%;
-  height: auto;
 }
 
 .hero-section img {
@@ -247,6 +228,6 @@ nav {
   width: 100vw;
 }
 
-footer i,p,a {
+footer i {
   margin: 0 0.25em 0.5em 0.25em;
 }
