@@ -162,21 +162,12 @@ h1 {
   display: inline-block;
   
 }
-
-.fotos .igu1 img{
-
-}
-
 .fotos .igu2 {
   margin-top: 50px;
   width: 33.333333%;
   height: 100%;
   display: inline-block;
 }
-.fotos .igu2 img{
-  
-}
-
 
 .fotos .igu3 {
   margin-top: 50px;
@@ -185,10 +176,33 @@ h1 {
   float: right;
   display: inline-block;
 }
-.fotos .igu3 img{
-  
+
+.fotos .igu1 img {
+  top: 1561px;
+  left: 150px;
+  width: 316px;
+  height: 202px;
+  background: transparent url('img/photo-1523371153586-b3b8e1782b44.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
 
+.fotos .igu2 img {
+  top: 1561px;
+  left: 482px;
+  width: 316px;
+  height: 202px;
+  background: transparent url('img/photo-1511762018950-7ba39019ae85.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.fotos .igu3 img {
+  top: 1561px;
+  left: 814px;
+  width: 316px;
+  height: 202px;
+  background: transparent url('img/photo-1487252665478-49b61b47f302.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
 
 .final {
   background-color: #1E1A13;
@@ -216,9 +230,6 @@ h1 {
   width: 100%;
 }
 
-hr {
-  color: crimson;
-}
 
 section,
 footer {
@@ -230,11 +241,12 @@ footer {
   margin: 0 auto;
 }
 
+
 nav {
   position: fixed;
   width: 100vw;
 }
 
-footer i {
+footer i,p,a {
   margin: 0 0.25em 0.5em 0.25em;
 }
